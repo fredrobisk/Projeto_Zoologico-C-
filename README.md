@@ -126,14 +126,3 @@ Projeto desenvolvido para a disciplina de Programação da Universidade Federal 
 
 O objetivo principal foi exercitar os fundamentos da linguagem C através da implementação de um sistema de gerenciamento simples, consolidando conhecimentos sobre estruturas de dados, funções e lógica de programação.
 
----
-
-## 🚀 Possíveis Melhorias Futuras
-
-- Persistência de dados em arquivos
-- Edição de registros cadastrados
-- Exclusão de animais
-- Interface gráfica
-- Busca por código de identificação
-- Validação de entradas do usuário
-- Substituição da função `gets()` por métodos mais seguros
