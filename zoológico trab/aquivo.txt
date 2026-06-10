@@ -1,0 +1,30 @@
+Nome: Frederico de Oliveira Brigido
+Trabalho: Atividade de Cadastro de um Zoológico
+
+**Parte I**
+Neste arquivo, vou explicar as partes principais do código, cada função e o que fiz de diferente.
+
+Bibliotecas: Utilizei apenas duas: stdio.h e string.h para utilização do strcmp e outras funções.
+
+Variáveis Globais: Utilizei variáveis globais countF e countM para contar o sexo dos animais. Também utilizei idadetotalM e idadetotalF para somar todas as idades e calcular a média.
+
+Struct: Criei um registro de cadastro com as seguintes declarações: int codigo, char raca (tipo etc.), char data, char sexo, int idade para realizar o cadastro e outras funções.
+
+Cast: Essa condição não foi abordada na aula, aprendi por conta própria e apliquei para poupar linhas de código. Usei o cast nas variáveis globais para transformar o valor int em float, pois precisava do resultado da média dos animais por sexo.
+
+
+**Parte II**
+Nessa segunda parte, vou falar sobre as funções e as partes importantes do código. Todas as minhas funções possuem nomes simples e fáceis de entender.
+
+Função Realizando: Utilizei essa função para realizar o cadastro dos animais caso o usuário digitasse 1. Nela, chamo todas as declarações do struct e armazeno em uma dimensão da variável ZOO. Também utilizei algumas funções da biblioteca string.h e fiz os contadores de masculino e feminino ao final da função.
+
+Função Descobrindo: Função para descobrir o que o usuário deseja. Possui apenas um objetivo: descobrir se o usuário quer pesquisar por raça ou sexo. Caso deseje algum dos dois, a função passa suas variáveis para outra função, tornando assim o código mais limpo e organizado.
+
+Função Sexo e Raça: Utilizei a mesma lógica e sistema nessas duas funções. Elas entram em ação quando o usuário escolhe pesquisar por sexo ou raça.
+
+Função Gerar Relatório: Essa é autoexplicativa. Usei essa função apenas para imprimir todos os animais já cadastrados, independente de raça ou sexo.
+
+Função Apresentacao: Eu diria que essa é a função mais complicada e difícil de fazer. Ela funciona caso o usuário digite 4. Quando acionada, pergunta se deseja a média ou todos os animais por um sexo específico. Ao entrar no código, é possível ver que utilizei o cast para conseguir um resultado em float.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Espero que a correção esteja de acordo com o que você esperava! Caso haja dúvidas sobre o código e não seja o suficiente, estou à disposição para explicar em chamada ou comunicação do tipo.
